@@ -22,8 +22,8 @@ const FeHeader = () => {
                 <NavLink className={"dropdown-item"} to="/brand/samsung">Samsung</NavLink>
               </NavDropdown>
               <NavDropdown title="Category" id="nav-dropdown">
-                <NavDropdown.Item eventKey="4.1" href="/category/clothings">Clothings</NavDropdown.Item>
-                <NavDropdown.Item eventKey="4.2" href="/category/smart-phones">Smart Phones</NavDropdown.Item>
+                <NavDropdown.Item to="/category/clothings">Clothings</NavDropdown.Item>
+                <NavDropdown.Item to="/category/smart-phones">Smart Phones</NavDropdown.Item>
               </NavDropdown>
             </Nav>
             <Form className="d-flex" role="search">
@@ -44,7 +44,6 @@ const FeHeader = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-
     </>
   );
 };

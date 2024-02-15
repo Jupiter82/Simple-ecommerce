@@ -6,8 +6,8 @@ import LoginPage from "./pages/auth/login/login.page"
 import RegisterPage from "./pages/auth/register/register.page"
 import Error404 from "./pages/errors/404.page";
 import DashboardPage from "./pages/cms/dashboard/dashboard.page";
-import WellnessDetailPage from "./pages/wellness/wellness-details.page";
 import AboutusComponent from "./component/fe/aboutus/aboutus.component";
+import BrandDetailsPage from "./pages/brand/brand-detail.page";
 
 const Routing = () => {
   return (
@@ -19,6 +19,7 @@ const Routing = () => {
                  <Route path="about-us" element={<AboutusComponent/>}></Route>
                  <Route path="login" element={<LoginPage/>}></Route>
                  <Route path="register" element={<RegisterPage></RegisterPage>}></Route>
+                 <Route path="brand/:slug" element={<BrandDetailsPage/>}></Route>
                  <Route path="*" element={<Error404 goBackUrl={"/"} name={"Home Page"}/> }></Route>
             </Route>
 
