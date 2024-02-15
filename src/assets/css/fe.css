@@ -1,0 +1,601 @@
+/* colour */
+.colour-green
+{
+    color: #5ba41c;
+}
+
+.colour-light-green
+{
+    color: #24aeb1;
+}
+.colour-grey
+{
+    color: rgba(11,18,25,.5);
+}
+.colour-pink
+{
+    color: #ef4281;
+}
+.colour-green-for-text
+{
+    color: #0b7e81;
+}
+.colour-green-for-text-2
+{
+    color: #24aeb1;
+}
+
+.colour-green-for-text-3
+{
+    color: #02b7c2;
+}
+
+
+/* body */
+.container-fluid
+{
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+}
+body
+
+{
+    background-color: #f3f7fb !important;
+    overflow-x: hidden;
+    
+}
+a
+{
+    text-decoration: none !important;
+    color: black !important;
+}
+
+/* nav-bar */
+header
+{
+    background-color: #32aeb1;
+}
+.nav-part-right
+{
+    justify-content: space-around;
+}
+
+.part-1-nav-ri
+{
+    align-items:flex-start;
+}
+.part2-hd-contain
+{
+    
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.part2-hd-a
+{
+    align-items: center;
+    /* margin : 0 3rem; */
+}
+
+.hd-part3-flebox
+{
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
+.pt-3
+{
+     background-color: #f3f7fb;
+}
+
+
+/* order-medicine-beauty-wellness */
+.order-containt
+{
+    display: flex;
+    width: 100%;
+    height: 6rem;
+    flex-direction: column;
+    border-radius: 20%;
+    justify-content: center;
+}
+
+.row-O
+{
+    border: none !important;
+    background-color: white;
+    border-radius: 1rem;
+    align-items: center;
+    box-shadow: 0 6px 12px -4px rgb(11 18 25 / 10%);
+    
+}
+#Order-medicine-beauty-wellness .row-O
+{
+    margin: 10px;
+}
+
+.previously-ordered-img-1
+{
+    border-right:solid black 1px;
+}
+
+/* payment partner */
+#payment-partner .card .logo-1
+{
+    width: 65%;
+    margin: auto;
+}
+
+.payment
+{
+    justify-content: space-between;
+}
+
+.payment-para1
+{
+    color: red;
+}
+.payment-para3
+{
+    flex-direction: column;
+}
+.payment-h-1
+{
+    line-height: 3rem;
+}
+
+.payment-flexbox1 
+{
+    margin: auto !important;
+    border-right: black solid 0.1px;
+}
+.payment-card
+{
+    
+    border-radius: 1rem !important;
+}
+.logo-1
+{
+    max-width: 5rem;
+
+    max-height: 5rem;
+
+}
+/* previously-ordered */
+.previously-content
+{
+    flex-direction: column;
+}
+.previously-ordered-btn
+{
+    color: white;
+    background-color: #24aeb1;
+    border-radius: 0.2rem;
+    border: none;
+    width: 8rem;
+    height: 2.5rem;
+}
+/* trending today */
+
+.trending-h1
+{
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* shop by category */
+
+.categoty-items
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content:space-between;
+    padding-right: 1.5rem;
+}
+
+.shop-ca-card
+{
+    display: flex;
+    align-items: center;
+    
+}
+.shop-by-category-h1
+{
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.Covid-ess-category
+{
+    padding: 2rem 1rem !important;
+    
+}
+
+/* membership */
+
+.price-explore
+{
+    display: flex;
+}
+
+.row-membership-1
+{
+    margin: auto !important;
+    width: auto !important;
+}
+
+.black-dot
+{
+    width: 0.5rem;
+}
+
+.price-explore
+{
+    justify-content: space-evenly;
+    align-items: center;
+}
+.btn-membership
+{
+    color: white;
+    background-color: #24aeb1;
+    width: 8rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+}
+
+.membership-para1
+{
+    font-size: x-large;
+    color: #ef4281;
+}
+/* top-brands */
+
+.top-brand-card
+{
+    align-items: center;
+}
+
+
+.owl-nav button span {
+    font-size: 60px;
+    padding: 0px 20px;
+}
+
+button.owl-prev {
+    float: left;
+}
+
+button.owl-next {
+    float: right;
+}
+
+.owl-nav {
+    width: 100vw;
+    position: absolute;
+}
+
+.owl-carousel.owl-theme.owl-loaded.owl-drag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-brand-h1
+{
+    text-align: center;
+    justify-content:space-between ;
+}
+
+/* categories in focus */
+
+.categories-in-focus-h1
+{
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* Explore Beauty */
+
+.Explore-beauty-category-item
+{
+    width: 80%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#Explore-Beauty
+{
+    background-image: url(./images/background-img/bac-img-exp-beauty.svg);
+}
+
+.Explore-beauty-category
+{
+    padding: 2rem 1rem;
+}
+/* best in beauty */
+#Best-in-beauty
+{
+    background-image: url(./images/background-img/back-img-bestinbeauty.svg);
+}
+
+/* personal care */
+
+/* Get-Medicine-refill */
+.get-medicine-subscribe
+{
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* heath-concerns */
+.health-concerns-img
+{
+width: 10rem;
+}
+.Health-Concerns-car
+{
+    align-items: center;
+    height: 18rem;
+    justify-content: space-around;
+}
+.health-concerns-card-body
+{
+    flex:none !important;
+    padding: 0 !important;
+}
+
+/* Advice from. health Expert */
+
+.expert-advice-img
+{
+    border-radius: 2rem;
+}
+.expert-advice-card
+{
+    border-radius: 2rem !important;
+}
+#Advice-from-health-expert
+{
+    background-image: url(./images/background-img/back-img-expert-advice.svg);
+
+}
+/* information netmed */
+.mid-br
+{
+    display: block;
+    margin-bottom: 0.6rem;
+}
+
+/* footer */
+footer
+{
+    background-color:white;
+    
+}
+.content-1
+{
+    width:85%;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.ft-rw-part1
+{
+    flex-direction: column;
+}
+
+.enter-email-ft
+{
+    border-top: none ;
+    border-right: none ;
+    border-left:none ;
+    width: 15rem;
+
+}
+
+.ft-appstore-img
+{
+    /* width: 100%;
+    height: auto; */
+    max-height: 3rem;
+    max-width: 9rem;
+}
+.ft-end
+{
+    justify-content: space-between;
+    height: 3rem;
+    flex-wrap: wrap;
+}
+
+
+/* signin-signout page */
+
+.login-numb
+{
+    border: none;
+    border-left: solid 1px black;
+    width: 80%;
+}
+
+.login-submit-btn
+
+{
+    width: 85%;
+}
+
+.btn-1
+{
+    width: 30%;
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+
+}
+.btn-2
+{
+    width: 30%;
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+.gle-fb-btn
+{
+    justify-content: space-around;
+    width: 80%;
+}
+
+.login-submit-btn
+{
+    background-color: #32aeb1;
+    border-radius: 1rem;
+    border: none;
+}
+
+
+/* wellness.html */
+
+/* Limited-time-deals */
+
+.Limi-part3
+{
+    flex-direction: column;
+}
+
+.img-limi-1
+{
+    width: auto !important;
+    margin: auto;
+    
+}
+
+.limi-button-maxi
+{
+    width:100%;
+    background-color: #24aeb1;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+.limi-button
+{
+    width:100%;
+    background-color: #24aeb1;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+
+
+/* .Limited-time-card
+{
+    height: 25rem !important;
+} */
+
+.conatint-name
+{
+    
+    height: 3rem;
+}   
+
+/* maxi-1 */
+
+
+.text-1-maxi
+{
+    font-weight: 600;
+}
+
+/* maxi-1 details-of-item */
+
+#details-of-item
+{
+    background-color: #ffffff !important;
+}
+
+.text-2-maxi
+{
+    background-color: #f6f6f7;
+}
+
+.limi-button-maxi
+{
+    width: 10rem;
+    height: 2.5rem;
+}
+
+.para-1-mixi
+{
+    margin-block-start:0 !important ;
+    margin-block-end: 0 !important;
+}
+.box-maxi-1
+{
+    width: 10rem;
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+
+   
+}
+.box-maxi-1:-webkit-autofill{
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+.pin-line
+{
+    justify-content: flex-start;
+}
+
+/* .demo-text-1
+{
+    justify-content:flex-start;
+    width: 25rem;
+    flex-wrap: wrap;
+} */
+
+.demo-text-1
+{
+    width: 30rem;
+}
+
+.round
+{
+    background-color: #02b7c2;
+    font-size: 1.7rem;
+    
+}
+
+
+.pin-line-box
+{
+    
+    border-bottom: #24aeb1 2px solid; 
+    align-items: flex-start;
+}
+
+.demo-text-1
+{
+    height: 2rem;
+}
+.offer-mixi
+{
+    justify-content: space-between;
+    background-color: #f3f7fb;
+    border-radius: 1rem;
+}
