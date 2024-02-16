@@ -1,9 +1,9 @@
-import { useParams } from "react-router-dom"
+import { useParams, useSearchParams } from "react-router-dom"
 
 const BrandDetailsPage = () =>{
     //params (parameters)
     const params = useParams()
-    console.log(params)
+    console.log(params.slug)
     return(
         <>
         <p>hello</p>

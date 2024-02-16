@@ -1,6 +1,7 @@
 import { Container, Form, Nav, Navbar, NavDropdown, Button } from "react-bootstrap";
-import { NavLink } from "react-router-dom";
+import { NavLink, useSearchParams } from "react-router-dom";
 const FeHeader = () => {
+  const [query,setQuery] = useSearchParams()
   return (
     <>
       <Navbar expand="lg" className="bg-body-tertiary"  >
@@ -26,12 +27,11 @@ const FeHeader = () => {
                 <NavDropdown.Item to="/category/smart-phones">Smart Phones</NavDropdown.Item>
               </NavDropdown>
             </Nav>
-            <Form className="d-flex" role="search">
-              <Form.Control type="search" className="me-2" placeholder="Search">
+            <Form className="d-flex" role="search" onSubmit={(e) => {e.preventDefault()}}>
+              <Form.Control type="search" className="me-2" placeholder="Search" name="q" onChange={(e)=>{
+                const type = e.target.value
+                 setQuery({q: type}) }}>
               </Form.Control>
-              <Button variant="outline-success" type="submit">
-                  Search
-              </Button>
             </Form>
             <Nav>
               <Nav.Item>
